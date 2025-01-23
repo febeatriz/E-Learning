@@ -5,8 +5,7 @@ import googles from './../assets/images/google.png'
 export default function LoginScreen() {
   return (
     <View style = {{display:'flex', alignItems: 'center'}} >
-      <Image source={googles}
-      style={{width:40,height:40}}  source={apps}
+      <Image  source={apps}
         style={{ width: 250, height: 500,
         resizeMode: 'contain', marginTop:50 }} />
         <View style={{
