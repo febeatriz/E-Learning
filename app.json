@@ -22,7 +22,16 @@
       "output": "static",
       "favicon": "./assets/images/favicon.png"
     },
+    "assets": [
+      "./assets/fonts/"
+    ],
     "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts":["./assets/fonts/OpenSans-Bold.ttf"]
+        }
+      ],
       "expo-router",
       [
         "expo-splash-screen",
@@ -32,7 +41,8 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      "expo-font"
     ],
     "experiments": {
       "typedRoutes": true
